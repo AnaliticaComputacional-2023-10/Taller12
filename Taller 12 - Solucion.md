@@ -43,57 +43,60 @@ conda install -c conda-forge scikit-learn
 
 mlflow ui
 
-5. Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
+Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
 
-La interfaz web debe quedar disponible a través del navegador en el puerto 5000. Abra la ubicación http://localhost:5000 y compruebe que funciona.
+5. La interfaz web debe quedar disponible a través del navegador en el puerto 5000. Abra la ubicación http://localhost:5000 y compruebe que funciona.
 
-Ahora ejecute el notebook mlflow-diab que encontrará en Bloque Neón. Estudie con cuidado el código y describa en su reporte qué hace.
+6. Ahora ejecute el notebook mlflow-diab que encontrará en Bloque Neón. Estudie con cuidado el código y describa en su reporte qué hace.
 
-Modifique alguno de los parámetros del modelo y vuelva a correr el modelo.
+7. Modifique alguno de los parámetros del modelo y vuelva a correr el modelo.
 
-Ahora visite la interfaz web de MLflow e identifique el experimento y las dos corridas realizadas. Compare los dos modelos en términos de MSE (mean squared error) usando las funciones de la interfaz. Incluya un pantallazo de la comparación en su reporte.
+8. Ahora visite la interfaz web de MLflow e identifique el experimento y las dos corridas realizadas. Compare los dos modelos en términos de MSE (mean squared error) usando las funciones de la interfaz. Incluya un pantallazo de la comparación en su reporte.
 
-MLflow en Databricks
-Inicie creando una cuenta en Databricks Community Edition https://www.databricks.com/try-databricks#account
+## MLflow en Databricks
 
-Provea sus datos y un correo.
+1. Inicie creando una cuenta en Databricks Community Edition https://www.databricks.com/try-databricks#account
 
-En la sección Choose a cloud provider en la parte inferior seleccione Get started with Community Edition.
+2. Provea sus datos y un correo.
 
-Valide su correo y genere su contraseña.
+3. En la sección **Choose a cloud provider** en la parte inferior seleccione **Get started with Community Edition.**
 
-Una vez haya creado la cuenta, ingrese con sus credenciales y familiarícese con la consola principal.
+4. Valide su correo y genere su contraseña.
 
-En el primer ítem del menú de la izquiera seleccione Data Science and Engineering.
+5. Una vez haya creado la cuenta, ingrese con sus credenciales y familiarícese con la consola principal.
 
-Luego de click en Create - Cluster.
+6. En el primer ítem del menú de la izquiera seleccione Data Science and Engineering.
 
-Asigne un nombre al cluster, seleccione un Runtime de ML, en su versión más reciente.
+7. Luego de click en Create - Cluster.
 
-Click en crear cluster y espere a que el cluster se haya creado. Incluya un pantallazo de su clúster operando en su reporte.
+8. Asigne un nombre al cluster, seleccione un Runtime de ML, en su versión más reciente.
 
-En el primer ítem del menú de la izquierda seleccione Machine Learning.
+10. Click en crear cluster y espere a que el cluster se haya creado. Incluya un pantallazo de su clúster operando en su reporte.
 
-En el menú de la izquierda click en Create - Notebook.
 
-Asigne un nombre al notebook, con lenguaje python por defecto y asígnelo al cluster que acaba de crear.
 
-Con el notebook abierto, copie las instrucciones del notebook mlflow-diab que encontrará en Bloque Neón.
+11. En el primer ítem del menú de la izquierda seleccione Machine Learning.
 
-Revise y comprenda las instrucciones de cada celda.
+12. En el menú de la izquierda click en Create - Notebook.
 
-Ejecute cada celda y explore los resultados.
+13. Asigne un nombre al notebook, con lenguaje python por defecto y asígnelo al cluster que acaba de crear.
 
-En el menú de la izquierda seleccione Experiments.
+14. Con el notebook abierto, copie las instrucciones del notebook mlflow-diab que encontrará en Bloque Neón.
 
-Seleccione el experimento realizado y navegue la documentación asociada (versión del modelo, librerías, python).
+15. Revise y comprenda las instrucciones de cada celda.
 
-Cambie los parámetros del entrenamiento del modelo y ejecute un nuevo experimento.
+16. Ejecute cada celda y explore los resultados.
 
-Revise los resultados en Experiments, genere gráficas comparativas. Incluya un pantallazo de las gráficas en su reporte.
+17. En el menú de la izquierda seleccione Experiments.
 
-Repita este procedimiento varias veces.
+18. Seleccione el experimento realizado y navegue la documentación asociada (versión del modelo, librerías, python).
 
-Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
+19. Cambie los parámetros del entrenamiento del modelo y ejecute un nuevo experimento.
 
-En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
+20. Revise los resultados en Experiments, genere gráficas comparativas. Incluya un pantallazo de las gráficas en su reporte.
+
+21. Repita este procedimiento varias veces.
+
+22. Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
+
+23. En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
