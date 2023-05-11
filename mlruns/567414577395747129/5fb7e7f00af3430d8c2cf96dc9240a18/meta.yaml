@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/567414577395747129/5fb7e7f00af3430d8c2cf96dc9240a18/artifacts
+end_time: 1683841117475
+entry_point_name: ''
+experiment_id: '567414577395747129'
+lifecycle_stage: active
+run_id: 5fb7e7f00af3430d8c2cf96dc9240a18
+run_name: capricious-stag-542
+run_uuid: 5fb7e7f00af3430d8c2cf96dc9240a18
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683841110360
+status: 3
+tags: []
+user_id: julianacarolinacardenasbarragan

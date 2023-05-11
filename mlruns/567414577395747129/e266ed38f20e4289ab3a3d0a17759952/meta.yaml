@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/567414577395747129/e266ed38f20e4289ab3a3d0a17759952/artifacts
+end_time: 1683841165740
+entry_point_name: ''
+experiment_id: '567414577395747129'
+lifecycle_stage: active
+run_id: e266ed38f20e4289ab3a3d0a17759952
+run_name: stately-lamb-778
+run_uuid: e266ed38f20e4289ab3a3d0a17759952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1683841158821
+status: 3
+tags: []
+user_id: julianacarolinacardenasbarragan
