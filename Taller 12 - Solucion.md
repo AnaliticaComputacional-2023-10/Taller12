@@ -38,10 +38,12 @@ conda install -c conda-forge mlflow
 3. En este ambiente instale sklearn
 
 conda install -c conda-forge scikit-learn
-En una terminal aparte lance la interfaz gráfica de MLflow con el comando
+
+4. En una terminal aparte lance la interfaz gráfica de MLflow con el comando
 
 mlflow ui
-Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
+
+5. Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
 
 La interfaz web debe quedar disponible a través del navegador en el puerto 5000. Abra la ubicación http://localhost:5000 y compruebe que funciona.
 
