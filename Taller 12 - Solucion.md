@@ -53,6 +53,8 @@ Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
 
 8. Ahora visite la interfaz web de MLflow e identifique el experimento y las dos corridas realizadas. Compare los dos modelos en términos de MSE (mean squared error) usando las funciones de la interfaz. Incluya un pantallazo de la comparación en su reporte.
 
+
+
 ## MLflow en Databricks
 
 1. Inicie creando una cuenta en Databricks Community Edition https://www.databricks.com/try-databricks#account
@@ -94,6 +96,8 @@ Tome un pantallazo de la salida de la terminal e inclúyalo en su reporte.
 19. Cambie los parámetros del entrenamiento del modelo y ejecute un nuevo experimento.
 
 20. Revise los resultados en Experiments, genere gráficas comparativas. Incluya un pantallazo de las gráficas en su reporte.
+
+
 
 21. Repita este procedimiento varias veces.
 
