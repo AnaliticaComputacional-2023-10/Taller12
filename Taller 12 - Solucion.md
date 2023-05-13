@@ -191,8 +191,8 @@ Grafica comparativa entre experimentos y el MSE:
 
 ![E1](/Image/2.202.png)
 
-1.   Repita este procedimiento varias veces.
+21.   Repita este procedimiento varias veces.
 
-2.   Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
+22.   Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
 
-3.   En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
+23.   En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
