@@ -135,9 +135,11 @@ Comparación MSE entre los experimentos realizados:
 **Experimento 1:**
 
 ![E1](/Image/1.83.png)
+![E1](/Image/1.85.png)
 
 **Experimento 2:**
 ![E2](/Image/1.84.png)
+![E1](/Image/1.86.png)
 
 ## MLflow en Databricks
 
@@ -181,10 +183,22 @@ Comparación MSE entre los experimentos realizados:
 
 20. Revise los resultados en Experiments, genere gráficas comparativas. Incluya un pantallazo de las gráficas en su reporte.
 
+Comparación MSE entre experimentos:
+![E1](/Image/2.201.png)
 
+Solo se cambio el parametro ``"num_trees"`` en el experimento
+Grafica comparativa entre experimentos y el MSE:
 
-21. Repita este procedimiento varias veces.
+![E1](/Image/2.202.png)
 
-22. Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
+Solo se cambio el parametro ``"num_trees"`` en el experimento
+Grafica comparativa entre experimentos y el MSE:
 
-23. En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
+Solo se cambio el parametro ``"num_trees"`` en el experimento
+Grafica comparativa entre experimentos y el MSE:
+
+21.  Repita este procedimiento varias veces.
+
+22.  Repita este procedimiento con el notebook mlflow-mnist que encontrará en Bloque Neón. Incluya un pantallazo de las gráficas en su reporte.
+
+23.  En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
