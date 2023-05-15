@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/567414577395747129/052a1edab7db450faee32fa10d0dc5de/artifacts
+end_time: 1684114723482
+entry_point_name: ''
+experiment_id: '567414577395747129'
+lifecycle_stage: active
+run_id: 052a1edab7db450faee32fa10d0dc5de
+run_name: carefree-steed-55
+run_uuid: 052a1edab7db450faee32fa10d0dc5de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1684114713252
+status: 3
+tags: []
+user_id: SGM
