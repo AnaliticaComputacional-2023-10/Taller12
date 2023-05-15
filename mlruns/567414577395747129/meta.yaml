@@ -1,6 +1,0 @@
-artifact_location: mlflow-artifacts:/567414577395747129
-creation_time: 1683841046469
-experiment_id: '567414577395747129'
-last_update_time: 1683841046469
-lifecycle_stage: active
-name: sklearn-diab
