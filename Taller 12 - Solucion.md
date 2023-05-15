@@ -102,7 +102,7 @@ Luego asigna las características (X) y la variable de interes (y) de la base de
 
 Los conjuntos resultantes son `X_train, X_test, y_train, ` y `y_test`, que se utilizarán para entrenar y evaluar modelos de aprendizaje automático.
 
-```
+```py
 #Importe MLFlow para registrar los experimentos, el regresor de bosques aleatorios y la métrica de error cuadrático medio
 import mlflow
 import mlflow.sklearn
@@ -342,7 +342,7 @@ Se cambian los parametros de `"batch_size"` y `"epochs"`, los resultados se obse
 
 En su reporte explique en qué consiste este último notebook y los modelos que allí se entrenan. Documente alguna observación sobre sus resultados.
 
-```
+```py
 # Importe MLflow, ketas y tensorflow
 import mlflow
 import mlflow.keras
@@ -355,7 +355,7 @@ from keras import layers
 
 En la primera parte del código se importan las librerias con las que se va a trabajar.
 
-```
+```py
 # Usaremos argparse para pasarle argumentos a las funciones de entrenamiento
 import argparse
 
@@ -371,13 +371,13 @@ parser.add_argument('--momentum', '-m', type=float, default=0.85)
 
 En la segunda parte del código se definen los argumentos que se pueden pasar al script de entrenamiento y establece los valores predeterminados para aquellos argumentos que no se proporcionen al ejecutar el script.
 
-```
+```py
 args = parser.parse_args([])
 ```
 
 Se utiliza el objeto `parser` definido previamente para analizar los argumentos de línea de comandos. En este caso, se pasa una lista vacía `[]` como argumento a `parse_args()`. Esto significa que no se están proporcionando argumentos de línea de comandos al analizador en este momento.
 
-```
+```py
 # Usaremos esta función para definir Descenso de Gradiente Estocástico como optimizador
 def get_optimizer():
     """
@@ -389,7 +389,7 @@ def get_optimizer():
 
 Se define una función llamada `get_optimizer()` que devuelve un optimizador de Keras para el Descenso de Gradiente Estocástico (SGD, por sus siglas en inglés) con los parámetros especificados; `learning_rate`, `momentum` y `nesterov`.
 
-```
+```py
 # Obtenemos el dataset MNIST
 mnist = tk.datasets.mnist
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
@@ -445,7 +445,7 @@ def run_mlflow(run_name="MLflow CE MNIST"):
 
 En esta parte del código se define una función para ejecutar un modelo de clasificación basado en redes neuronales para el dataset MNIST, realiza el entrenamiento del modelo y registra los resultados en MLflow.
 
-```
+```py
 # corrida con parámetros diferentes a los por defecto
 args = parser.parse_args(["--batch_size", '256', '--epochs', '8'])
 (experimentID, runID) = run_mlflow()
